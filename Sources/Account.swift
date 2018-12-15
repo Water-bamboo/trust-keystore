@@ -113,12 +113,15 @@ public final class Account: Codable, Hashable {
         switch coin {
         case .bitcoin:
             maybeAddress = BitcoinAddress(data: addressData)
-        case .ethereum,
+            break
+        case .naka,
+             .ethereum,
              .poa,
              .ethereumClassic,
              .callisto,
              .gochain:
             maybeAddress = EthereumAddress(data: addressData, coin: coin)
+            break
         }
 
         guard let address = maybeAddress else {
