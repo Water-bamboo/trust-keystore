@@ -115,6 +115,7 @@ public final class Account: Codable, Hashable {
             maybeAddress = BitcoinAddress(data: addressData)
             break
         case .naka,
+             .nakaTest,
              .ethereum,
              .poa,
              .ethereumClassic,
