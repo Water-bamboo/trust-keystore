@@ -119,6 +119,7 @@ public final class Account: Codable, Hashable {
              .ethereum,
              .poa,
              .ethereumClassic,
+             .ethereumRopsten,
              .callisto,
              .gochain:
             maybeAddress = EthereumAddress(data: addressData, coin: coin)
