@@ -3,7 +3,7 @@ PODS:
   - CryptoSwift (0.10.0)
   - SwiftLint (0.28.2)
   - TrezorCrypto (0.0.9)
-  - TrustCore (0.0.8):
+  - TrustCore (0.0.9):
     - BigInt
     - TrezorCrypto (~> 0.0.6)
 
@@ -30,7 +30,7 @@ SPEC CHECKSUMS:
   CryptoSwift: 6c778d69282bed3b4e975ff97a79d074f20bb011
   SwiftLint: f1629ae733b64e9cad20052de01d1debd5b640e7
   TrezorCrypto: bfeea47a052dca2c77d4a39e1e183865e52de14d
-  TrustCore: a07af93905693b86331923b2ccf8e48abcc043be
+  TrustCore: 600456e88babdf2019ead7e3f410614bb3e2aaf5
 
 PODFILE CHECKSUM: 0188234424ac7752cf0aec77acec43ee136f5f55
 
